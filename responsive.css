@@ -10,6 +10,7 @@
         font-size: 40px;
         text-align: center;
 
+<<<<<<< HEAD
     }
     .programmer{
         
@@ -18,6 +19,12 @@
     }
     .name{
         font-size:15px;
+=======
+        font-size: 40px;
+    }
+    .name{
+        font-size:16px;
+>>>>>>> d8a825376bfe7e1a2f917432fadfcdad6b06d501
     }
     .skills{
         padding-top:15%;
@@ -25,6 +32,7 @@
     }
     
     .intro-social{
+<<<<<<< HEAD
         display: block;
         /* position: absolute; */
         /* width: 100%; */
@@ -39,6 +47,24 @@
         margin:0px 16px;
         padding:0px;
         /* margin-bottom: 4%; */
+=======
+        
+        /* transform:translate(0%,0%) */
+    }
+    .intro-social a .fa{
+          
+          font-size: x-large;
+    }
+    .intro-social{
+        display:initial;
+        position: inherit;
+        width: 100%;
+        /* margin-left: 23%; */
+        margin-top:5%;
+        bottom: 7.2rem;
+        font-size: 3rem;
+        
+>>>>>>> d8a825376bfe7e1a2f917432fadfcdad6b06d501
     }
     .intro-social a .fa{
           
@@ -46,12 +72,19 @@
   }
     
     .exploreButton{
+        
         border-style:solid;
         border-width: 4px;
         border-color:white;
         color:#ff0077;
+<<<<<<< HEAD
         
         padding:3% 4%;
         margin:5%;
+=======
+        margin-top:15px;
+        padding:2%;
+        margin:1% 2%;
+>>>>>>> d8a825376bfe7e1a2f917432fadfcdad6b06d501
     }
 }
