@@ -6,10 +6,10 @@
     }
     .iam{
 
-        font-size: 340%;
+        font-size: 300%;
     }
     .name{
-        font-size: 120%;
+        font-size: 100%;
     }
     .skills{
         padding-top:15%;
@@ -17,7 +17,7 @@
     }
     
     .intro-social{
-        margin-left: 8%;
+        margin-left: 1%;
         /* transform:translate(0%,0%) */
     }
     .intro-social a .fa{
