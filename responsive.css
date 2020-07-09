@@ -44,6 +44,11 @@
           
         font-size: large;
   }
+  /* not showing instagram */
+  .intro-social a .fa-instagram{
+          display:none;
+    
+}
     
     .exploreButton{
         
