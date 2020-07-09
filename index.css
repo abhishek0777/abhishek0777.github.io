@@ -65,7 +65,13 @@
    color:white;
    font-weight: bold;
    font-size: 80px;
-   text-align: center;
+   text-align: right;
+}
+.programmer{
+    color:white;
+    font-weight: bold;
+    font-size: 80px;
+    text-align: left;
 }
 .name{
     color:white;
@@ -103,7 +109,6 @@ a:hover{
     bottom: 7.2rem;
     font-size: 3rem;
     
-
 }
 .intro-social li{
     display: inline-block;

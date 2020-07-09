@@ -5,11 +5,19 @@
         
     }
     .iam{
+        
+        padding: 3% 0%;
+        font-size: 40px;
+        text-align: center;
 
-        font-size: 340%;
+    }
+    .programmer{
+        
+        font-size: 40px;
+        text-align: center;
     }
     .name{
-        font-size: 120%;
+        font-size:15px;
     }
     .skills{
         padding-top:15%;
@@ -17,25 +25,33 @@
     }
     
     .intro-social{
-        margin-left: 8%;
-        /* transform:translate(0%,0%) */
-    }
-    .intro-social a .fa{
-          
-          font-size: x-large;
+        display: block;
+        /* position: absolute; */
+        /* width: 100%; */
+        margin-left: 0%; 
+        margin-top:5%;
+        bottom: 7.2rem;
+        font-size: 3rem;
+        
     }
     .intro-social li{
         display: inline-block;
-        margin:0px 3%;
+        margin:0px 16px;
         padding:0px;
         /* margin-bottom: 4%; */
     }
+    .intro-social a .fa{
+          
+        font-size: x-large;
+  }
+    
     .exploreButton{
         border-style:solid;
         border-width: 4px;
         border-color:white;
         color:#ff0077;
-        padding:2%;
-        margin:1% 2%;
+        
+        padding:3% 4%;
+        margin:5%;
     }
 }
