@@ -60,18 +60,21 @@
 .hello{
     text-align: center;
     padding-top:17%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .iam{
    color:white;
    font-weight: bold;
    font-size: 80px;
    text-align: right;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .programmer{
     color:white;
     font-weight: bold;
     font-size: 80px;
     text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .name{
     color:white;
@@ -93,6 +96,7 @@
     color:#ff0077;
     padding:1%;
     margin:1% 2%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
 
