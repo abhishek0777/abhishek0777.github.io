@@ -22,7 +22,6 @@ body{
         color:#ff0077;
         
     }
-    
     /* nav bar toggler button *//* nav bar toggler button *//* nav bar toggler button */
     .icon-bar{
         width:22px;
@@ -202,12 +201,20 @@ body{
     p{
         font-size: 17px;
     }
+    
     .PS{
         font-family: 'Lucida Sans',  sans-serif;
         font-size: 32px;
         /* text-align: center; */
         font-weight: 1200;
         padding:1vh 0vh;
+    }
+     .pinkLine{
+        color:#ff0077;
+        height:5px;
+        width:15px;
+        /* display:block; */
+
     }
     .profileItems{
         font-size:18px;
