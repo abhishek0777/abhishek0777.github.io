@@ -1,149 +1,153 @@
-@font-face{
-    font-family:alternity;
-    src:
-    url(fonts/alternity.ttf)
-    format('truetype');
-}
-.navi{
-    background-color: black;
-}
-
-.pink{
-    color:#ff0077;
+body{
+    background-color:black;
+    }
+    @font-face{
+        font-family:alternity;
+        src:
+        url(fonts/alternity.ttf)
+        format('truetype');
+    }
+    .navi{
+        background-color: black;
+    }
     
-}
-
-/* nav bar toggler button *//* nav bar toggler button *//* nav bar toggler button */
-.icon-bar{
-    width:22px;
-    height:3px;
-    background-color:#FF0077;
-    display: block;
-    transition: all 0.2s;
-    margin-top: 4px;
-    margin-bottom:4px
-}
-.navbar-toggler{
-    border:none;
-    background: transparent !important ;
-}
-
-/*toggler-button animation */
-.navbar-toggler .top-bar {
-    transform: rotate(45deg);
-     transform-origin: 5% 5%; 
-  }
-   
-  .navbar-toggler .middle-bar {
-    opacity: 0;
-  }
-   
-  .navbar-toggler .bottom-bar {
-    transform: rotate(-45deg);
-     transform-origin: 5% 95%; 
-  }
-   
-  .navbar-toggler.collapsed .top-bar {
-    transform: rotate(0);
+    .pink{
+        color:#ff0077;
+        
+    }
     
-  }
-   
-  .navbar-toggler.collapsed .middle-bar {
-    opacity: 1; 
-  }
-   
-  .navbar-toggler.collapsed .bottom-bar {
-    transform: rotate(0);
-   
-  }
-
- /* Home *//* Home *//* Home *//* Home *//* Home *//* Home *//* Home *//* Home */
-#home{
-    /* width: 100%;
-    height: 100%; */
-    background-color: black;
-}
-.hello{
-    text-align: center;
-    padding-top:17%;
-    font-family: 'Lucida Sans',  sans-serif;
-}
-.iam{
-   color:white;
-   font-weight: bold;
-   font-size: 80px;
-   text-align: right;
-   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.programmer{
-    color:white;
-    font-weight: bold;
-    font-size: 66px;
-    text-align: left;
-    font-family: 'alternity', sans-serif;
-}
-.name{
-    color:white;
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+    /* nav bar toggler button *//* nav bar toggler button *//* nav bar toggler button */
+    .icon-bar{
+        width:22px;
+        height:3px;
+        background-color:#FF0077;
+        display: block;
+        transition: all 0.2s;
+        margin-top: 4px;
+        margin-bottom:4px
+    }
+    .navbar-toggler{
+        border:none;
+        background: transparent !important ;
+    }
     
-}
-.skills{
-    padding-top:2%;
-    color:white;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-}
-.exploreButton{
-    border-style:solid;
-    border-width: 4px;
-    border-color:white;
-    color:#ff0077;
-    padding:1%;
-    margin:1% 2%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-}
-
-a:hover{
-    border-color: #ff0077;
-    color:white;
-}
-.intro-social{
-    display: block;
-    /* position: absolute; */
-    /* width: 100%; */
-    margin-left: 30%;
-    margin-top:5%;
-    bottom: 7.2rem;
-    font-size: 3rem;
+    /*toggler-button animation */
+    .navbar-toggler .top-bar {
+        transform: rotate(45deg);
+         transform-origin: 5% 5%; 
+      }
+       
+      .navbar-toggler .middle-bar {
+        opacity: 0;
+      }
+       
+      .navbar-toggler .bottom-bar {
+        transform: rotate(-45deg);
+         transform-origin: 5% 95%; 
+      }
+       
+      .navbar-toggler.collapsed .top-bar {
+        transform: rotate(0);
+        
+      }
+       
+      .navbar-toggler.collapsed .middle-bar {
+        opacity: 1; 
+      }
+       
+      .navbar-toggler.collapsed .bottom-bar {
+        transform: rotate(0);
+       
+      }
     
-}
-.intro-social li{
-    display: inline-block;
-    margin:0px 20px;
-    padding:0px;
-    /* margin-bottom: 4%; */
-}
-.intro-social a .fa {
-    color:white;
-}
-.intro-social a:hover .fa-github {
-   color:#ff0077;
-}
-.intro-social a:hover .fa-facebook {
-    color:#ff0077;
-}
-.intro-social a:hover .fa-linkedin {
-    color:#ff0077;
-}
-.intro-social a:hover .fa-twitter {
-    color:#ff0077;
-}
-.intro-social a:hover .fa-instagram {
-    color:#ff0077;
-}
-.intro-social a:hover .fa-quora {
-    color:#ff0077;
-}
+     /* Home *//* Home *//* Home *//* Home *//* Home *//* Home *//* Home *//* Home */
+    #home{
+        width: 100vw;
+        height: 100vh;
+        background-color: black;
+    }
+    .hello{
+        text-align: center;
+        padding-top:17%;
+        font-family: 'Lucida Sans',  sans-serif;
+    }
+    .iam{
+       color:white;
+       font-weight: bold;
+       font-size: 80px;
+       text-align: right;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .programmer{
+        color:white;
+        font-weight: bold;
+        font-size: 66px;
+        text-align: left;
+        font-family: 'alternity', sans-serif;
+    }
+    .name{
+        color:white;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        
+    }
+    .skills{
+        padding-top:2%;
+        color:white;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+    }
+    .exploreButton{
+        border-style:solid;
+        border-width: 4px;
+        border-color:white;
+        color:#ff0077;
+        padding:1%;
+        margin:1% 2%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    }
+    
+    a:hover{
+        border-color: #ff0077;
+        color:white;
+    }
+    .intro-social{
+        display: block;
+        /* position: absolute; */
+        /* width: 100%; */
+        margin-left: 30%;
+        margin-top:5%;
+        bottom: 7.2rem;
+        font-size: 3rem;
+        
+    }
+    .intro-social li{
+        display: inline-block;
+        margin:0px 20px;
+        padding:0px;
+        /* margin-bottom: 4%; */
+    }
+    .intro-social a .fa {
+        color:white;
+    }
+    .intro-social a:hover .fa-github {
+       color:#ff0077;
+    }
+    .intro-social a:hover .fa-facebook {
+        color:#ff0077;
+    }
+    .intro-social a:hover .fa-linkedin {
+        color:#ff0077;
+    }
+    .intro-social a:hover .fa-twitter {
+        color:#ff0077;
+    }
+    .intro-social a:hover .fa-instagram {
+        color:#ff0077;
+    }
+    .intro-social a:hover .fa-quora {
+        color:#ff0077;
+    }
+    
