@@ -8,9 +8,14 @@ body{
         url(fonts/alternity.ttf)
         format('truetype');
     }
+    @font-face{
+        font-family:LucidaSans;
+        src:
+        url(fonts/LucidaSans.ttf)
+        format('truetype');
+    }
     .navi{
         background-color: black;
-        
     }
     
     .pink{
@@ -78,7 +83,7 @@ body{
        font-weight: bold;
        font-size: 80px;
        text-align: right;
-       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       font-family: 'LucidaSans', sans-serif;
     }
     .programmer{
         color:white;
@@ -107,7 +112,7 @@ body{
         color:#ff0077;
         padding:1%;
         margin:1% 2%;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-family: 'LucidaSans', sans-serif;
     
     }
     
@@ -163,7 +168,7 @@ body{
         text-align: center;
         padding-top: 15vh;
         font-size: 35px;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-family: 'LucidaSans', sans-serif;
     }
 
     .introduce{
@@ -171,7 +176,7 @@ body{
         padding-top: 1vh;
         font-size: 32px;
         font-weight: 900;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-family: 'LucidaSans', sans-serif;
     }
     .profileImg{
         width:16vw;
@@ -225,7 +230,7 @@ body{
         text-align: center;
         padding:1%;
         margin:1% 2%;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-family: 'LucidaSans', sans-serif;
     }
     .skillsButton:hover{
         border-color:#1b1b1b;
