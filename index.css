@@ -1,4 +1,5 @@
 body{
+<<<<<<< HEAD
     background-color:black;
     }
     @font-face{
@@ -10,12 +11,29 @@ body{
     .navi{
         background-color: black;
     }
+=======
+background-color:black;
+}
+@font-face{
+    font-family:alternity;
+    src:
+    url(fonts/alternity.ttf)
+    format('truetype');
+}
+.navi{
+    background-color: black;
+}
+
+.pink{
+    color:#ff0077;
+>>>>>>> 8fb3093814bf1841f8cdca2a73c91ec973d23a09
     
     .pink{
         color:#ff0077;
         
     }
     
+<<<<<<< HEAD
     /* nav bar toggler button *//* nav bar toggler button *//* nav bar toggler button */
     .icon-bar{
         width:22px;
@@ -30,6 +48,48 @@ body{
         border:none;
         background: transparent !important ;
     }
+=======
+  }
+   
+  .navbar-toggler.collapsed .middle-bar {
+    opacity: 1; 
+  }
+   
+  .navbar-toggler.collapsed .bottom-bar {
+    transform: rotate(0);
+   
+  }
+
+ /* Home *//* Home *//* Home *//* Home *//* Home *//* Home *//* Home *//* Home */
+#home{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+.hello{
+    text-align: center;
+    padding-top:17%;
+    font-family: 'Lucida Sans',  sans-serif;
+}
+.iam{
+   color:white;
+   font-weight: bold;
+   font-size: 80px;
+   text-align: right;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.programmer{
+    color:white;
+    font-weight: bold;
+    font-size: 66px;
+    text-align: left;
+    font-family: 'alternity', sans-serif;
+}
+.name{
+    color:white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+>>>>>>> 8fb3093814bf1841f8cdca2a73c91ec973d23a09
     
     /*toggler-button animation */
     .navbar-toggler .top-bar {
@@ -60,6 +120,7 @@ body{
        
       }
     
+<<<<<<< HEAD
      /* Home *//* Home *//* Home *//* Home *//* Home *//* Home *//* Home *//* Home */
     #home{
         width: 100vw;
@@ -151,3 +212,33 @@ body{
         color:#ff0077;
     }
     
+=======
+}
+.intro-social li{
+    display: inline-block;
+    margin:0px 20px;
+    padding:0px;
+    /* margin-bottom: 4%; */
+}
+.intro-social a .fa {
+    color:white;
+}
+.intro-social a:hover .fa-github {
+   color:#ff0077;
+}
+.intro-social a:hover .fa-facebook {
+    color:#ff0077;
+}
+.intro-social a:hover .fa-linkedin {
+    color:#ff0077;
+}
+.intro-social a:hover .fa-twitter {
+    color:#ff0077;
+}
+.intro-social a:hover .fa-instagram {
+    color:#ff0077;
+}
+.intro-social a:hover .fa-quora {
+    color:#ff0077;
+}
+>>>>>>> 8fb3093814bf1841f8cdca2a73c91ec973d23a09
