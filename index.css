@@ -1,5 +1,6 @@
 body{
-    background-color:black;
+    /* background-color:black; */
+    overflow-x: hidden;
     }
     @font-face{
         font-family:alternity;
@@ -9,6 +10,7 @@ body{
     }
     .navi{
         background-color: black;
+        
     }
     
     .pink{
@@ -116,7 +118,7 @@ body{
     .intro-social{
         display: block;
         /* position: absolute; */
-        /* width: 100%; */
+        /* width: 50vw; */
         margin-left: 30%;
         margin-top:5%;
         bottom: 7.2rem;
@@ -150,4 +152,80 @@ body{
     .intro-social a:hover .fa-quora {
         color:#ff0077;
     }
-    
+
+    /* about *//* about *//* about *//* about *//* about *//* about *//* about */
+    #about{
+        width: 100%;
+        height: 100vh;
+        background-color: white;
+    }
+    .About{
+        text-align: center;
+        padding-top: 15vh;
+        font-size: 35px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .introduce{
+        text-align: center;
+        padding-top: 1vh;
+        font-size: 32px;
+        font-weight: 900;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .profileImg{
+        width:16vw;
+        height:16vw;
+        border-radius:40% 0px;
+        border-style: solid;
+        border-width: 10px;
+        border-color: white;
+    }
+    .introduction{
+        /* padding-left: 3%; */
+        font-size: 1.96vw;
+        color:grey;
+        text-align: center;
+    }
+    .grey{
+        color:grey;
+    }
+    .PSpadding{
+        padding-top:3vh;
+    }
+    p{
+        font-size: 17px;
+    }
+    .PS{
+        font-family: 'Lucida Sans',  sans-serif;
+        font-size: 32px;
+        /* text-align: center; */
+        font-weight: 1200;
+        padding:1vh 0vh;
+    }
+    .profileItems{
+        font-size:18px;
+    }
+    .PSpadding a{
+        font-size: 17px;
+    }
+    .PSpadding a:hover{
+        color:#ff0077;
+        font-size:17px;
+        text-decoration: none;
+    }
+    .skillsButton{
+        border-style:solid;
+        border-width: 4px;
+        border-color:black;
+        background-color: #1b1b1b;
+        color:#ff0077;
+        width:100%;
+        text-align: center;
+        padding:1%;
+        margin:1% 2%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .skillsButton:hover{
+        border-color:#1b1b1b;
+    }
