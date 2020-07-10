@@ -59,7 +59,7 @@
 
  /* Home *//* Home *//* Home *//* Home *//* Home *//* Home *//* Home *//* Home */
 #home{
-    width: 100%;
+    width: 100vw;
     height: 100%;
     background-color: black;
 }
