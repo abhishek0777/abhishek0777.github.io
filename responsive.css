@@ -24,7 +24,7 @@
     .intro-social{
         display: block;
          position: absolute; 
-         width: 100vw; 
+         /* width: 100vw;  */
          padding-top:5%;
          padding-left: 25vw; 
        /* margin-top:5%;*/
