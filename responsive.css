@@ -72,3 +72,23 @@
     }
 
 }
+/* contact *//* contact *//* contact *//* contact */
+@media(max-width:450px){
+    input[type=text],input[type=email]{
+        margin-left: 0;
+        margin-right: 0;
+        width:100%
+    }
+    .Submit{
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        margin-bottom:2vh ;
+    }
+    .feedback{
+        font-size: 7.5vw;
+    }
+    .wanna{
+        font-size: 4vw;
+    }
+}
