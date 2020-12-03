@@ -92,11 +92,16 @@
     .wanna{
         font-size: 4vw;
     }
+
+
    
 }
 
-@media(max-width:450px){
-    .project-width{
-        width:100%;
+@media(max-width:600px){
+    .carousel-inner{
+        width:80%;
+        margin:auto;
     }
 }
+
+
