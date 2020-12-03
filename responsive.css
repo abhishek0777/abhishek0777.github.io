@@ -94,3 +94,9 @@
     }
    
 }
+
+@media(max-width:450px){
+    .project-width{
+        width:100%;
+    }
+}
