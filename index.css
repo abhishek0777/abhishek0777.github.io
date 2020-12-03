@@ -340,8 +340,8 @@ body{
       #projects{
         /* background: #ebebeb; */
         height:100%;
-        margin-top: 3vh;
-        padding-bottom: 2vh;
+        margin-top: 0vh;
+        padding-bottom: 4vh;
         background: #0b0b0b;
 
        }
@@ -349,6 +349,19 @@ body{
        .carousel-inner{
            width:50%;
            margin:auto;
+       }
+
+       .tech-stack-list{
+           width:50%;
+           margin:auto;
+       }
+
+       .list-group .active{
+           background: #181818;
+           border-width: 0px;
+       }
+       .list-group-item{
+           border-width: 2px;
        }
        
        
